@@ -1,3 +1,25 @@
+/* Skill Bar */
+.skill-bar {
+  height: 10px;
+  border-radius: 5px;
+  background-color: #ddd;
+  overflow: hidden;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+.skill-bar-percentage {
+  height: 100%;
+  border-radius: 3px;
+  background-color: #333;
+  width: 0;
+  animation: progress-bar 2s;
+}
+
+@keyframes progress-bar {
+  from { width: 0; }
+  to { width: 100%; }
+}
 
 /* Icons */
 
