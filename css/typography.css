@@ -17,6 +17,11 @@ body {
   font-weight: 700;
 }
 
+.skill-text-tools {
+  font-size: 10px;
+  font-weight: 700;
+}
+
 .image-caption {
   font-size: 14px;
   font-weight: 500;
@@ -30,6 +35,12 @@ body {
 .subheader-text {
   font-size: 20px;
   font-weight: 700;
+}
+
+.subheader-text-tools {
+  font-size: 20px;
+  font-weight: 700;
+  display: block;
 }
 
 .body-text {

@@ -73,7 +73,29 @@ body {
   gap: 34px;
 }
 
+/* Skills Tools*/
 
+.skills .subheader-text {
+  display: block;
+}
+.skills {
+  display: -webkit-box;
+}
+
+.left-div {
+  flex-direction: column;
+  display: flex;
+  width: 45%;
+
+  float: left;
+}
+
+.right-div {
+  flex-direction: column;
+  display: flex;
+  width: 45%;
+  float: right;
+}
 
 
 /* Project Section */
